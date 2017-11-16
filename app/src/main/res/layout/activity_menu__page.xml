@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.share.trip.tripshare.Menu_Page"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/im2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        app:srcCompat="@drawable/background_login_two" />
+
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/im2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/t9"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/t8"
+        android:layout_below="@+id/im2"
+        android:layout_marginTop="194dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+</RelativeLayout>
